@@ -73,6 +73,17 @@ body {
   margin-top: 20px;
 }
 
+.attribution a {
+  color: #fff;
+}
+.attribution {
+  position: relative;
+  top: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 415px) {
   .advice-box {
     width: 300px;
