@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.advice-box {
+  background-color: hsl(217, 19%, 24%);
+  width: 530px;
+  max-height: 500px;
+  border-radius: 12px;
+  position: relative;
+  top: 12em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+#advice-id {
+  color: hsl(150, 100%, 66%);
+  padding-top: 8%;
+  word-spacing: 6px;
+  letter-spacing: 4px;
+  font-size: 8pt;
+  font-weight: 800;
+}
+
+.advice-txt {
+  padding: 20px;
+  font-size: 28px;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+  width: 490px;
+  margin: auto;
+}
+
+.dice-img {
+  background-color: hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  margin: auto;
+  position: relative;
+  top: 39px;
+  cursor: pointer;
+}
+.dice-img:hover {
+  box-shadow: hsl(150, 100%, 66%) 1px 1px 20px;
+  transition: 0.1s ease-in-out;
+}
+.dice-img:active {
+  box-shadow: hsl(150, 100%, 66%) 1px 1px 20px;
+}
+
+.dice-img img {
+  margin: 18px;
+}
+
+.pattern {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 415px) {
+  .advice-box {
+    width: 300px;
+    max-height: 500px;
+  }
+  .advice-txt {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    width: auto;
+    margin: auto;
+  }
+  .pattern img {
+    width: 300px;
+  }
+}
